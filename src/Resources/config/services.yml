@@ -1,0 +1,6 @@
+parameters:
+    phpspreadsheet.class:  Roromix\SpreadsheetBundle\Factory
+
+services:
+    phpspreadsheet:
+      class: '%phpspreadsheet.class%'
