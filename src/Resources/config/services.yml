@@ -4,3 +4,4 @@ parameters:
 services:
     phpspreadsheet:
       class: '%phpspreadsheet.class%'
+      public: true
