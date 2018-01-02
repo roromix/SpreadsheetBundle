@@ -21,9 +21,9 @@
         "sensio/framework-extra-bundle": "~3.2|~4.0"
     },
     "autoload": {
-        "psr-4": { "Roromix\\SpreadsheetBundle\\": "src/" }
+        "psr-4": { "Roromix\\Bundle\\SpreadsheetBundle\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Roromix\\SpreadsheetBundle\\Tests\\": "tests/" }
+        "psr-4": { "Roromix\\Bundle\\SpreadsheetBundle\\Tests\\": "tests/" }
     }
 }

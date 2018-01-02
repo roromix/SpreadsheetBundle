@@ -1,6 +1,6 @@
 <?php
 
-namespace Roromix\SpreadsheetBundle\DependencyInjection;
+namespace Roromix\Bundle\SpreadsheetBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

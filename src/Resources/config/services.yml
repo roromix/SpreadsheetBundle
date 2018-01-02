@@ -1,5 +1,5 @@
 parameters:
-    phpspreadsheet.class:  Roromix\SpreadsheetBundle\Factory
+    phpspreadsheet.class:  Roromix\Bundle\SpreadsheetBundle\Factory
 
 services:
     phpspreadsheet:

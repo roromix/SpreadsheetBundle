@@ -1,6 +1,6 @@
 <?php
 
-namespace Roromix\SpreadsheetBundle;
+namespace Roromix\Bundle\SpreadsheetBundle;
 
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use PhpOffice\PhpSpreadsheet\IOFactory;
@@ -12,7 +12,7 @@ use PhpOffice\PhpSpreadsheet\Helper\Html;
 /**
  * Factory for Spreadsheet, StreamedResponse, and IWriter.
  *
- * @package Roromix\SpreadsheetBundle
+ * @package Roromix\Bundle\SpreadsheetBundle
  */
 class Factory
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Roromix\SpreadsheetBundle;
+namespace Roromix\Bundle\SpreadsheetBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
