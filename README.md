@@ -1,6 +1,6 @@
 # SpreadsheetBundle
 
-This is a Symfony 3/4/5 Bundle helps you to read and write Spreadsheet files (including pdf, xls, xlsx, odt, csv), thanks to the PHPSpreadsheet library.
+This is a Symfony 3 to 6 Bundle helps you to read and write Spreadsheet files (including pdf, xls, xlsx, odt, csv), thanks to the PHPSpreadsheet library.
 
 [![Total Downloads](https://poser.pugx.org/roromix/SpreadsheetBundle/downloads.png)](https://packagist.org/packages/roromix/SpreadsheetBundle)
 [![Latest Stable Version](https://poser.pugx.org/roromix/SpreadsheetBundle/v/stable.png)](https://packagist.org/packages/roromix/SpreadsheetBundle)
