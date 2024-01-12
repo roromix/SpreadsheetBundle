@@ -30,16 +30,16 @@ class Factory
      *
      * @return Spreadsheet
      */
-    public function createSpreadsheet($filename = null)
+    public function createSpreadsheet($filename = null): Spreadsheet
     {
-        return (null === $filename) ? new Spreadsheet() : call_user_func(array($this->phpSpreadsheetIO, 'load'), $filename);
+        return (null === $filename) ? new Spreadsheet() : call_user_func([$this->phpSpreadsheetIO, 'load'], $filename);
     }
 
     /**
      * Create a worksheet drawing
      * @return Drawing
      */
-    public function createSpreadsheetWorksheetDrawing()
+    public function createSpreadsheetWorksheetDrawing(): Drawing
     {
         return new Drawing();
     }
@@ -52,9 +52,9 @@ class Factory
      *
      * @return IWriter
      */
-    public function createWriter(Spreadsheet $spreadsheet, $type = 'Xls')
+    public function createWriter(Spreadsheet $spreadsheet, $type = 'Xls'): IWriter
     {
-        return call_user_func(array($this->phpSpreadsheetIO, 'createWriter'), $spreadsheet, $type);
+        return call_user_func([$this->phpSpreadsheetIO, 'createWriter'], $spreadsheet, $type);
     }
 
     /**
@@ -66,7 +66,7 @@ class Factory
      *
      * @return StreamedResponse
      */
-    public function createStreamedResponse(IWriter $writer, $status = 200, $headers = array())
+    public function createStreamedResponse(IWriter $writer, int $status = 200, array $headers = [])
     {
         return new StreamedResponse(
             function () use ($writer) {
@@ -82,7 +82,7 @@ class Factory
      *
      * @return Html
      */
-    public function createHelperHTML()
+    public function createHelperHTML(): Html
     {
         return new Html();
     }
