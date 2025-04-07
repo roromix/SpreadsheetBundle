@@ -1,6 +1,6 @@
 {
     "name": "roromix/spreadsheetbundle",
-    "description": "This is a Symfony 3.2 to 7 Bundle helps you to read and write Spreadsheet files (including pdf, xls, xlsx, odt, csv), thanks to the PHPSpreadsheet library",
+    "description": "This is a Symfony 7.1+ Bundle helps you to read and write Spreadsheet files (including pdf, xls, xlsx, odt, csv), thanks to the PHPSpreadsheet library",
     "type": "symfony-bundle",
     "authors": [
         {
@@ -12,8 +12,8 @@
     "homepage": "https://github.com/roromix/SpreadsheetBundle",
     "license": "MIT",
     "require": {
-        "php": ">=7.1",
-        "symfony/framework-bundle": "~4.0|~5.0|~6.0|~7.0",
+        "php": ">=8.2",
+        "symfony/framework-bundle": "~7.1",
         "phpoffice/phpspreadsheet": "~1.0"
     },
     "autoload": {
